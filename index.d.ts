@@ -80,6 +80,15 @@ interface KeyboardAwareProps {
   extraHeight?: number
 
   /**
+   * Adds an extra offset when focusing the TextInputs.
+   *
+   * Default is 0
+   * @type {number}
+   * @memberof KeyboardAwareProps
+   */
+  customExtraHeight?: number
+
+  /**
    * Adds an extra offset to the keyboard.
    * Useful if you want to stick elements above the keyboard.
    *
